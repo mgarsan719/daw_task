@@ -1,0 +1,16 @@
+INSERT INTO tarea (titulo, descripcion, fecha_creacion, fecha_vencimiento, estado) VALUES
+('Configurar base de datos', 'Instalar y configurar MariaDB en el servidor de desarrollo', '2023-10-01', '2023-10-05', 'COMPLETADA'),
+('Crear modelo de datos', 'Mapear las entidades JPA para el proyecto de gestión', '2023-10-02', '2023-10-07', 'COMPLETADA'),
+('Desarrollar API REST', 'Crear los endpoints CRUD para la entidad Tarea', '2023-10-05', '2023-10-15', 'EN_PROGRESO'),
+('Configurar seguridad', 'Implementar Spring Security con JWT', '2023-10-10', '2023-10-20', 'PENDIENTE'),
+('Comprar material de oficina', 'Comprar folios, bolígrafos y cartuchos de tinta', '2023-10-12', '2023-10-14', 'COMPLETADA'),
+('Reunión con el cliente', 'Presentar el prototipo inicial de la aplicación', '2023-10-15', '2023-10-16', 'PENDIENTE'),
+('Escribir tests unitarios', 'Alcanzar un 80% de cobertura en los servicios', '2023-10-16', '2023-10-25', 'EN_PROGRESO'),
+('Corregir bug de login', 'El usuario no puede recuperar la contraseña si tiene espacios', '2023-10-18', '2023-10-19', 'EN_PROGRESO'),
+('Actualizar dependencias', 'Revisar vulnerabilidades y actualizar a Spring Boot 3.2', '2023-10-20', '2023-10-22', 'PENDIENTE'),
+('Documentar código', 'Generar documentación de la API usando Swagger/OpenAPI', '2023-10-22', '2023-10-30', 'PENDIENTE'),
+('Renovar dominio web', 'Pagar la tasa anual del dominio de la empresa', '2023-10-25', '2023-11-05', 'PENDIENTE'),
+('Auditoría de rendimiento', 'Optimizar las consultas SQL más lentas del sistema', '2023-10-26', '2023-11-10', 'EN_PROGRESO'),
+('Preparar presentación', 'Crear diapositivas para la charla de microservicios', '2023-10-28', '2023-11-15', 'PENDIENTE'),
+('Limpieza de servidor', 'Borrar logs antiguos y archivos temporales', '2023-10-29', '2023-10-31', 'PENDIENTE'),
+('Desplegar en producción', 'Subir la versión 1.0.0 al servidor de AWS', '2023-11-01', '2023-11-02', 'PENDIENTE');
